@@ -1,0 +1,6 @@
+--- absl/copts/configure_copts.bzl
++++ absl/copts/configure_copts.bzl
+@@ -52,0 +53 @@
++    ":cpu_aarch64": ABSL_RANDOM_HWAES_ARM64_FLAGS,
+@@ -72,0 +74 @@
++        "aarch64",

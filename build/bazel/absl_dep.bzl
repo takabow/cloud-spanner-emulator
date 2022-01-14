@@ -23,5 +23,6 @@ def absl_dep():
         name = "com_google_absl",
         strip_prefix = "abseil-cpp-a50ae369a30f99f79d7559002aba3413dac1bd48",
         url = "https://github.com/abseil/abseil-cpp/archive/a50ae369a30f99f79d7559002aba3413dac1bd48.tar.gz",
+        patches = ["//build/bazel:absl.patch"],
         sha256 = "be2a9d7ea7ee15f9317b57beff37e8ffb67418fb0df64592366b04c8618c2584",
     )
